@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0789AAC490B6EBE0B0126E1E /* libPods-KRSetting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D62FDBD3A1317EE8E80D896 /* libPods-KRSetting.a */; };
+		167804941FEB9912005BAA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804931FEB9912005BAA91 /* AppDelegate.m */; };
+		1678049C1FEB9913005BAA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1678049B1FEB9913005BAA91 /* Assets.xcassets */; };
+		1678049F1FEB9913005BAA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1678049D1FEB9913005BAA91 /* LaunchScreen.storyboard */; };
+		167804A21FEB9913005BAA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804A11FEB9913005BAA91 /* main.m */; };
+		167804AC1FEB9913005BAA91 /* KRSettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804AB1FEB9913005BAA91 /* KRSettingTests.m */; };
+		167804B71FEB9913005BAA91 /* KRSettingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804B61FEB9913005BAA91 /* KRSettingUITests.m */; };
+		167804CB1FEB9F15005BAA91 /* KRSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804CA1FEB9F15005BAA91 /* KRSettingController.m */; };
+		167804CE1FEBA1FA005BAA91 /* KRSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804CD1FEBA1FA005BAA91 /* KRSettingView.m */; };
+		167804D31FEBA688005BAA91 /* KRSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804D21FEBA688005BAA91 /* KRSettingCell.m */; };
+		167804DE1FEBB9CC005BAA91 /* KRAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804DC1FEBB9CC005BAA91 /* KRAboutController.m */; };
+		167804DF1FEBB9CC005BAA91 /* KRAboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167804DD1FEBB9CC005BAA91 /* KRAboutController.xib */; };
+		167804E61FEBC463005BAA91 /* KRSuggestionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804E51FEBC463005BAA91 /* KRSuggestionController.m */; };
+		167804E91FEC9B38005BAA91 /* KRSuggestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804E81FEC9B38005BAA91 /* KRSuggestionView.m */; };
+		167805081FECAD59005BAA91 /* DMAssetGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804FA1FECAD59005BAA91 /* DMAssetGroupTableViewCell.m */; };
+		167805091FECAD59005BAA91 /* DMAssetGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804FC1FECAD59005BAA91 /* DMAssetGroupViewController.m */; };
+		1678050A1FECAD59005BAA91 /* DMAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 167804FE1FECAD59005BAA91 /* DMAssetModel.m */; };
+		1678050B1FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 167805001FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.m */; };
+		1678050C1FECAD59005BAA91 /* DMAssetsPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167805021FECAD59005BAA91 /* DMAssetsPickerViewController.m */; };
+		1678050D1FECAD59005BAA91 /* DMMultiImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 167805031FECAD59005BAA91 /* DMMultiImagePicker.bundle */; };
+		1678050E1FECAD59005BAA91 /* DMPhotoBrowserViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 167805051FECAD59005BAA91 /* DMPhotoBrowserViewCell.m */; };
+		1678050F1FECAD59005BAA91 /* DMPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167805071FECAD59005BAA91 /* DMPhotoBrowserViewController.m */; };
+		167805131FECB909005BAA91 /* KRPhotoSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 167805121FECB909005BAA91 /* KRPhotoSelectCell.m */; };
+		167805151FECFF3E005BAA91 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167805141FECFF3E005BAA91 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167804A81FEB9913005BAA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167804871FEB9912005BAA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1678048E1FEB9912005BAA91;
+			remoteInfo = KRSetting;
+		};
+		167804B31FEB9913005BAA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167804871FEB9912005BAA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1678048E1FEB9912005BAA91;
+			remoteInfo = KRSetting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1678048F1FEB9912005BAA91 /* KRSetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRSetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167804921FEB9912005BAA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		167804931FEB9912005BAA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1678049B1FEB9913005BAA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1678049E1FEB9913005BAA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		167804A01FEB9913005BAA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167804A11FEB9913005BAA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		167804A71FEB9913005BAA91 /* KRSettingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRSettingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167804AB1FEB9913005BAA91 /* KRSettingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingTests.m; sourceTree = "<group>"; };
+		167804AD1FEB9913005BAA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167804B21FEB9913005BAA91 /* KRSettingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRSettingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167804B61FEB9913005BAA91 /* KRSettingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingUITests.m; sourceTree = "<group>"; };
+		167804B81FEB9913005BAA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167804C91FEB9F15005BAA91 /* KRSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingController.h; sourceTree = "<group>"; };
+		167804CA1FEB9F15005BAA91 /* KRSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingController.m; sourceTree = "<group>"; };
+		167804CC1FEBA1FA005BAA91 /* KRSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingView.h; sourceTree = "<group>"; };
+		167804CD1FEBA1FA005BAA91 /* KRSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingView.m; sourceTree = "<group>"; };
+		167804D11FEBA688005BAA91 /* KRSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSettingCell.h; sourceTree = "<group>"; };
+		167804D21FEBA688005BAA91 /* KRSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSettingCell.m; sourceTree = "<group>"; };
+		167804DB1FEBB9CC005BAA91 /* KRAboutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAboutController.h; sourceTree = "<group>"; };
+		167804DC1FEBB9CC005BAA91 /* KRAboutController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAboutController.m; sourceTree = "<group>"; };
+		167804DD1FEBB9CC005BAA91 /* KRAboutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRAboutController.xib; sourceTree = "<group>"; };
+		167804E41FEBC463005BAA91 /* KRSuggestionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSuggestionController.h; sourceTree = "<group>"; };
+		167804E51FEBC463005BAA91 /* KRSuggestionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSuggestionController.m; sourceTree = "<group>"; };
+		167804E71FEC9B38005BAA91 /* KRSuggestionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSuggestionView.h; sourceTree = "<group>"; };
+		167804E81FEC9B38005BAA91 /* KRSuggestionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSuggestionView.m; sourceTree = "<group>"; };
+		167804F91FECAD59005BAA91 /* DMAssetGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAssetGroupTableViewCell.h; sourceTree = "<group>"; };
+		167804FA1FECAD59005BAA91 /* DMAssetGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAssetGroupTableViewCell.m; sourceTree = "<group>"; };
+		167804FB1FECAD59005BAA91 /* DMAssetGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAssetGroupViewController.h; sourceTree = "<group>"; };
+		167804FC1FECAD59005BAA91 /* DMAssetGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAssetGroupViewController.m; sourceTree = "<group>"; };
+		167804FD1FECAD59005BAA91 /* DMAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAssetModel.h; sourceTree = "<group>"; };
+		167804FE1FECAD59005BAA91 /* DMAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAssetModel.m; sourceTree = "<group>"; };
+		167804FF1FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAssetsPickerCollectionViewCell.h; sourceTree = "<group>"; };
+		167805001FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAssetsPickerCollectionViewCell.m; sourceTree = "<group>"; };
+		167805011FECAD59005BAA91 /* DMAssetsPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAssetsPickerViewController.h; sourceTree = "<group>"; };
+		167805021FECAD59005BAA91 /* DMAssetsPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAssetsPickerViewController.m; sourceTree = "<group>"; };
+		167805031FECAD59005BAA91 /* DMMultiImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DMMultiImagePicker.bundle; sourceTree = "<group>"; };
+		167805041FECAD59005BAA91 /* DMPhotoBrowserViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoBrowserViewCell.h; sourceTree = "<group>"; };
+		167805051FECAD59005BAA91 /* DMPhotoBrowserViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoBrowserViewCell.m; sourceTree = "<group>"; };
+		167805061FECAD59005BAA91 /* DMPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		167805071FECAD59005BAA91 /* DMPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		167805111FECB909005BAA91 /* KRPhotoSelectCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRPhotoSelectCell.h; sourceTree = "<group>"; };
+		167805121FECB909005BAA91 /* KRPhotoSelectCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRPhotoSelectCell.m; sourceTree = "<group>"; };
+		167805141FECFF3E005BAA91 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		28DBEF03B2BC017223522057 /* Pods-KRSetting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRSetting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRSetting/Pods-KRSetting.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF20B8AFE150239AE4A4269 /* Pods-KRSetting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRSetting.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRSetting/Pods-KRSetting.release.xcconfig"; sourceTree = "<group>"; };
+		9D62FDBD3A1317EE8E80D896 /* libPods-KRSetting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRSetting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1678048C1FEB9912005BAA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167805151FECFF3E005BAA91 /* CoreTelephony.framework in Frameworks */,
+				0789AAC490B6EBE0B0126E1E /* libPods-KRSetting.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804A41FEB9913005BAA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804AF1FEB9913005BAA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167804861FEB9912005BAA91 = {
+			isa = PBXGroup;
+			children = (
+				167804911FEB9912005BAA91 /* KRSetting */,
+				167804AA1FEB9913005BAA91 /* KRSettingTests */,
+				167804B51FEB9913005BAA91 /* KRSettingUITests */,
+				167804901FEB9912005BAA91 /* Products */,
+				9CC7F30CC3416F387D54972A /* Pods */,
+				57F4C67B5990B224E8038731 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		167804901FEB9912005BAA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1678048F1FEB9912005BAA91 /* KRSetting.app */,
+				167804A71FEB9913005BAA91 /* KRSettingTests.xctest */,
+				167804B21FEB9913005BAA91 /* KRSettingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167804911FEB9912005BAA91 /* KRSetting */ = {
+			isa = PBXGroup;
+			children = (
+				167804C41FEB9EBC005BAA91 /* Classes */,
+				167804921FEB9912005BAA91 /* AppDelegate.h */,
+				167804931FEB9912005BAA91 /* AppDelegate.m */,
+				167804F81FECAD59005BAA91 /* DMMultiImagePicker */,
+				1678049B1FEB9913005BAA91 /* Assets.xcassets */,
+				1678049D1FEB9913005BAA91 /* LaunchScreen.storyboard */,
+				167804A01FEB9913005BAA91 /* Info.plist */,
+				167804A11FEB9913005BAA91 /* main.m */,
+			);
+			path = KRSetting;
+			sourceTree = "<group>";
+		};
+		167804AA1FEB9913005BAA91 /* KRSettingTests */ = {
+			isa = PBXGroup;
+			children = (
+				167804AB1FEB9913005BAA91 /* KRSettingTests.m */,
+				167804AD1FEB9913005BAA91 /* Info.plist */,
+			);
+			path = KRSettingTests;
+			sourceTree = "<group>";
+		};
+		167804B51FEB9913005BAA91 /* KRSettingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				167804B61FEB9913005BAA91 /* KRSettingUITests.m */,
+				167804B81FEB9913005BAA91 /* Info.plist */,
+			);
+			path = KRSettingUITests;
+			sourceTree = "<group>";
+		};
+		167804C41FEB9EBC005BAA91 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				167804E01FEBC43D005BAA91 /* Suggestion */,
+				167804D41FEBB8AB005BAA91 /* About */,
+				167804C51FEB9EBC005BAA91 /* Setting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		167804C51FEB9EBC005BAA91 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				167804C61FEB9EBC005BAA91 /* Controller */,
+				167804C71FEB9EBC005BAA91 /* Model */,
+				167804C81FEB9EBC005BAA91 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		167804C61FEB9EBC005BAA91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				167804C91FEB9F15005BAA91 /* KRSettingController.h */,
+				167804CA1FEB9F15005BAA91 /* KRSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		167804C71FEB9EBC005BAA91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		167804C81FEB9EBC005BAA91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				167804D01FEBA53A005BAA91 /* Cell */,
+				167804CC1FEBA1FA005BAA91 /* KRSettingView.h */,
+				167804CD1FEBA1FA005BAA91 /* KRSettingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		167804D01FEBA53A005BAA91 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				167804D11FEBA688005BAA91 /* KRSettingCell.h */,
+				167804D21FEBA688005BAA91 /* KRSettingCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		167804D41FEBB8AB005BAA91 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				167804D51FEBB8AB005BAA91 /* Controller */,
+				167804D61FEBB8AB005BAA91 /* Model */,
+				167804D71FEBB8AB005BAA91 /* View */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		167804D51FEBB8AB005BAA91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				167804DB1FEBB9CC005BAA91 /* KRAboutController.h */,
+				167804DC1FEBB9CC005BAA91 /* KRAboutController.m */,
+				167804DD1FEBB9CC005BAA91 /* KRAboutController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		167804D61FEBB8AB005BAA91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		167804D71FEBB8AB005BAA91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		167804E01FEBC43D005BAA91 /* Suggestion */ = {
+			isa = PBXGroup;
+			children = (
+				167804E11FEBC43D005BAA91 /* Controller */,
+				167804E21FEBC43D005BAA91 /* Model */,
+				167804E31FEBC43D005BAA91 /* View */,
+			);
+			path = Suggestion;
+			sourceTree = "<group>";
+		};
+		167804E11FEBC43D005BAA91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				167804E41FEBC463005BAA91 /* KRSuggestionController.h */,
+				167804E51FEBC463005BAA91 /* KRSuggestionController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		167804E21FEBC43D005BAA91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		167804E31FEBC43D005BAA91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				167805101FECB8D2005BAA91 /* Cell */,
+				167804E71FEC9B38005BAA91 /* KRSuggestionView.h */,
+				167804E81FEC9B38005BAA91 /* KRSuggestionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		167804F81FECAD59005BAA91 /* DMMultiImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				167804F91FECAD59005BAA91 /* DMAssetGroupTableViewCell.h */,
+				167804FA1FECAD59005BAA91 /* DMAssetGroupTableViewCell.m */,
+				167804FB1FECAD59005BAA91 /* DMAssetGroupViewController.h */,
+				167804FC1FECAD59005BAA91 /* DMAssetGroupViewController.m */,
+				167804FD1FECAD59005BAA91 /* DMAssetModel.h */,
+				167804FE1FECAD59005BAA91 /* DMAssetModel.m */,
+				167804FF1FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.h */,
+				167805001FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.m */,
+				167805011FECAD59005BAA91 /* DMAssetsPickerViewController.h */,
+				167805021FECAD59005BAA91 /* DMAssetsPickerViewController.m */,
+				167805031FECAD59005BAA91 /* DMMultiImagePicker.bundle */,
+				167805041FECAD59005BAA91 /* DMPhotoBrowserViewCell.h */,
+				167805051FECAD59005BAA91 /* DMPhotoBrowserViewCell.m */,
+				167805061FECAD59005BAA91 /* DMPhotoBrowserViewController.h */,
+				167805071FECAD59005BAA91 /* DMPhotoBrowserViewController.m */,
+			);
+			path = DMMultiImagePicker;
+			sourceTree = "<group>";
+		};
+		167805101FECB8D2005BAA91 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				167805111FECB909005BAA91 /* KRPhotoSelectCell.h */,
+				167805121FECB909005BAA91 /* KRPhotoSelectCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		57F4C67B5990B224E8038731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167805141FECFF3E005BAA91 /* CoreTelephony.framework */,
+				9D62FDBD3A1317EE8E80D896 /* libPods-KRSetting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CC7F30CC3416F387D54972A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28DBEF03B2BC017223522057 /* Pods-KRSetting.debug.xcconfig */,
+				5AF20B8AFE150239AE4A4269 /* Pods-KRSetting.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1678048E1FEB9912005BAA91 /* KRSetting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167804BB1FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSetting" */;
+			buildPhases = (
+				02A6E14A64F0649443D9C5AE /* [CP] Check Pods Manifest.lock */,
+				1678048B1FEB9912005BAA91 /* Sources */,
+				1678048C1FEB9912005BAA91 /* Frameworks */,
+				1678048D1FEB9912005BAA91 /* Resources */,
+				D74E59FEE01F4F53DBF40DD1 /* [CP] Embed Pods Frameworks */,
+				5A7F97AA24C29F88ECEE409B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRSetting;
+			productName = KRSetting;
+			productReference = 1678048F1FEB9912005BAA91 /* KRSetting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		167804A61FEB9913005BAA91 /* KRSettingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167804BE1FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSettingTests" */;
+			buildPhases = (
+				167804A31FEB9913005BAA91 /* Sources */,
+				167804A41FEB9913005BAA91 /* Frameworks */,
+				167804A51FEB9913005BAA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167804A91FEB9913005BAA91 /* PBXTargetDependency */,
+			);
+			name = KRSettingTests;
+			productName = KRSettingTests;
+			productReference = 167804A71FEB9913005BAA91 /* KRSettingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		167804B11FEB9913005BAA91 /* KRSettingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167804C11FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSettingUITests" */;
+			buildPhases = (
+				167804AE1FEB9913005BAA91 /* Sources */,
+				167804AF1FEB9913005BAA91 /* Frameworks */,
+				167804B01FEB9913005BAA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167804B41FEB9913005BAA91 /* PBXTargetDependency */,
+			);
+			name = KRSettingUITests;
+			productName = KRSettingUITests;
+			productReference = 167804B21FEB9913005BAA91 /* KRSettingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167804871FEB9912005BAA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ace;
+				TargetAttributes = {
+					1678048E1FEB9912005BAA91 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					167804A61FEB9913005BAA91 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1678048E1FEB9912005BAA91;
+					};
+					167804B11FEB9913005BAA91 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1678048E1FEB9912005BAA91;
+					};
+				};
+			};
+			buildConfigurationList = 1678048A1FEB9912005BAA91 /* Build configuration list for PBXProject "KRSetting" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 167804861FEB9912005BAA91;
+			productRefGroup = 167804901FEB9912005BAA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1678048E1FEB9912005BAA91 /* KRSetting */,
+				167804A61FEB9913005BAA91 /* KRSettingTests */,
+				167804B11FEB9913005BAA91 /* KRSettingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1678048D1FEB9912005BAA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1678049F1FEB9913005BAA91 /* LaunchScreen.storyboard in Resources */,
+				167804DF1FEBB9CC005BAA91 /* KRAboutController.xib in Resources */,
+				1678050D1FECAD59005BAA91 /* DMMultiImagePicker.bundle in Resources */,
+				1678049C1FEB9913005BAA91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804A51FEB9913005BAA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804B01FEB9913005BAA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A6E14A64F0649443D9C5AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRSetting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7F97AA24C29F88ECEE409B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRSetting/Pods-KRSetting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74E59FEE01F4F53DBF40DD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRSetting/Pods-KRSetting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1678048B1FEB9912005BAA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167804CE1FEBA1FA005BAA91 /* KRSettingView.m in Sources */,
+				1678050A1FECAD59005BAA91 /* DMAssetModel.m in Sources */,
+				167804D31FEBA688005BAA91 /* KRSettingCell.m in Sources */,
+				167804A21FEB9913005BAA91 /* main.m in Sources */,
+				167804CB1FEB9F15005BAA91 /* KRSettingController.m in Sources */,
+				167805131FECB909005BAA91 /* KRPhotoSelectCell.m in Sources */,
+				167804E61FEBC463005BAA91 /* KRSuggestionController.m in Sources */,
+				1678050B1FECAD59005BAA91 /* DMAssetsPickerCollectionViewCell.m in Sources */,
+				1678050F1FECAD59005BAA91 /* DMPhotoBrowserViewController.m in Sources */,
+				1678050E1FECAD59005BAA91 /* DMPhotoBrowserViewCell.m in Sources */,
+				1678050C1FECAD59005BAA91 /* DMAssetsPickerViewController.m in Sources */,
+				167804E91FEC9B38005BAA91 /* KRSuggestionView.m in Sources */,
+				167805091FECAD59005BAA91 /* DMAssetGroupViewController.m in Sources */,
+				167804DE1FEBB9CC005BAA91 /* KRAboutController.m in Sources */,
+				167804941FEB9912005BAA91 /* AppDelegate.m in Sources */,
+				167805081FECAD59005BAA91 /* DMAssetGroupTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804A31FEB9913005BAA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167804AC1FEB9913005BAA91 /* KRSettingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167804AE1FEB9913005BAA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167804B71FEB9913005BAA91 /* KRSettingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167804A91FEB9913005BAA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1678048E1FEB9912005BAA91 /* KRSetting */;
+			targetProxy = 167804A81FEB9913005BAA91 /* PBXContainerItemProxy */;
+		};
+		167804B41FEB9913005BAA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1678048E1FEB9912005BAA91 /* KRSetting */;
+			targetProxy = 167804B31FEB9913005BAA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1678049D1FEB9913005BAA91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1678049E1FEB9913005BAA91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167804B91FEB9913005BAA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		167804BA1FEB9913005BAA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		167804BC1FEB9913005BAA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DBEF03B2BC017223522057 /* Pods-KRSetting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/KRPublishLibrary/KRPublishLibrary/KRPublishLibrary/PrefixHeader.pch/";
+				INFOPLIST_FILE = KRSetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSetting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		167804BD1FEB9913005BAA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF20B8AFE150239AE4A4269 /* Pods-KRSetting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Pods/KRPublishLibrary/KRPublishLibrary/KRPublishLibrary/PrefixHeader.pch/";
+				INFOPLIST_FILE = KRSetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSetting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		167804BF1FEB9913005BAA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRSettingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSettingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRSetting.app/KRSetting";
+			};
+			name = Debug;
+		};
+		167804C01FEB9913005BAA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRSettingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSettingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRSetting.app/KRSetting";
+			};
+			name = Release;
+		};
+		167804C21FEB9913005BAA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRSettingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSettingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRSetting;
+			};
+			name = Debug;
+		};
+		167804C31FEB9913005BAA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8TVSF6Q9MU;
+				INFOPLIST_FILE = KRSettingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinrain.KRSettingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRSetting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1678048A1FEB9912005BAA91 /* Build configuration list for PBXProject "KRSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167804B91FEB9913005BAA91 /* Debug */,
+				167804BA1FEB9913005BAA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167804BB1FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSetting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167804BC1FEB9913005BAA91 /* Debug */,
+				167804BD1FEB9913005BAA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167804BE1FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSettingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167804BF1FEB9913005BAA91 /* Debug */,
+				167804C01FEB9913005BAA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167804C11FEB9913005BAA91 /* Build configuration list for PBXNativeTarget "KRSettingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167804C21FEB9913005BAA91 /* Debug */,
+				167804C31FEB9913005BAA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167804871FEB9912005BAA91 /* Project object */;
+}
